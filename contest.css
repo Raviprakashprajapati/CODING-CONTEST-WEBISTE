@@ -1,0 +1,142 @@
+body{
+    background-image: radial-gradient(rgb(23, 25, 25),rgb(0, 0, 0));
+   
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: #115fff;
+    cursor: pointer;
+   
+}
+
+
+.navbar-button{
+   background-color: #115fff;
+}
+
+.btn{
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align:auto;
+}
+
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    margin-bottom: 0;
+    color: var(--bs-card-cap-color);
+    background-color: rgb(255 255 255 / 17%);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    background-color:#2c6df0 ;
+}
+
+.navbar-toggler {
+     padding:1px 5px;
+     border-radius: 20%;
+    }
+
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    font-size: 13px;
+}
+
+.card-body p {
+    margin-top: -7px;
+}
+
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    font-family: fantasy;
+    
+}
+
+.p-date {
+    font-size: 10px;
+    font-weight:600;
+}
+
+.heading-contest{
+    font-family:unset;
+}
+
+
+.search-btn{
+    font-size: 15px; 
+     margin-top: -0;
+     padding: 0 10px;
+     color: white;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(to right,rgb(36, 34, 34),rgb(42, 40, 40));
+}
+
+.mainCard{
+    box-shadow: 0 0 5px rgb(127, 120, 120);
+}
+
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    /* background-color:#115fff; */
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+#navbar-btn{
+    background-color: #115fff;
+}
+
+
+
+
+.mainCard{
+    width: 80%;
+}
+
+
+
+
+
+/* @media ( 0px <= width <=575px)
+{
+    #h3{
+        font-size: 15px;
+    }
+}*/
+
+@media ( 700px <= width <=1400px)
+{
+    
+    .mainCard{
+        width: 400px;
+    }
+} 
+
